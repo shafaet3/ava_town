@@ -1,0 +1,70 @@
+.navbarWrapper {
+    background-image: url('/images/nav.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    min-width: 250px;
+    margin-left: 10px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.li {
+    margin-right: 20px;
+}
+
+.link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Go to Marketpage */
+.linkMarketPage {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 40px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+
+
+.searchContainer {
+    position: relative;
+}
+
+
+.searchInput {
+
+    width: 411px;
+    height: 29px;
+    left: 670px;
+    top: 13px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.searchIcon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999;
+}
