@@ -1,0 +1,94 @@
+.sidebar {
+    /* Left side category */
+    position: absolute;
+    width: 256px;
+    min-height: 775px;
+    left: 0px;
+    top: 57px;
+    background: #FAFAFA;
+
+}
+
+.sidebarContent {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.sidebarTitle {
+    /* Category */
+    width: 215px;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+}
+
+.sidebarText {
+    /* Full avatar */
+    width: 215px;
+    height: 16px;
+    margin-left: 21px;
+    margin-top: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #000000;
+
+
+}
+
+.sidebarInputText {
+    /* position: absolute; */
+    width: 195px;
+    height: 15px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #000000;
+
+
+}
+
+.inputCheckBox {
+    box-sizing: border-box;
+
+    /* position: absolute; */
+    width: 12px;
+    height: 12px;
+    margin-left: 21px;
+    /* margin-top: 148px; */
+
+    background: #FFFFFF;
+    border: 1px solid #6A6A6A;
+    border-radius: 3px;
+    vertical-align: middle;
+
+}
+
+.ellipseGreen {
+    margin-left: 4px;
+    vertical-align: middle;
+}
+
+.ellipseBlue {
+    margin-left: 5px;
+    vertical-align: middle;
+}
