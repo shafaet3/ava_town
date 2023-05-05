@@ -3,11 +3,13 @@
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    min-height: 57px;
 }
 
 .nav {
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 .logo {
@@ -19,7 +21,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    width: 100%;
 }
 
 .li {
@@ -39,32 +41,60 @@
     font-weight: 500;
     font-size: 22px;
     line-height: 40px;
-    text-decoration-line: underline;
     color: #FFFFFF;
+    text-decoration: none;
+}
+
+.customUnderLine {
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
 }
 
 
-
-.searchContainer {
-    position: relative;
-}
 
 
 .searchInput {
-
-    width: 411px;
+    max-width: 411px;
     height: 29px;
-    left: 670px;
-    top: 13px;
-
     background: #FFFFFF;
     border-radius: 5px;
+    margin: 4px 16px 4px 0px;
 }
 
 .searchIcon {
+    box-sizing: border-box;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #6A6A6A;
+}
+
+.customNotificationIcon {
+    padding: 8px 10px 8px 10px;
+    background-color: #34353A;
+    border-radius: 8px;
+    margin-right: 8px;
+    color: white;
+    cursor: pointer;
+}
+
+.customUserIcon {
+    padding: 6px 8px 6px 8px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.searchContainer {
+    margin-top: 4px;
+    position: relative;
+}
+
+.customInputSearch {
     position: absolute;
+    right: 160px;
     top: 50%;
-    left: 10px;
     transform: translateY(-50%);
-    color: #999;
+    color: #6A6A6A;
 }
