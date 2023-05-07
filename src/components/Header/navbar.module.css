@@ -97,4 +97,5 @@
     top: 50%;
     transform: translateY(-50%);
     color: #6A6A6A;
+    cursor: pointer;
 }
