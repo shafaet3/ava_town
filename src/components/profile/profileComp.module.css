@@ -1,0 +1,17 @@
+.avatarImgCircle {
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatarName {
+    margin-left: 8px;
+    width: 170px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 22px;
+    color: #6A6A6A;
+
+}
