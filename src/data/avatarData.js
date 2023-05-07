@@ -5,7 +5,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -17,7 +17,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -29,7 +29,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -41,7 +41,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -53,7 +53,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -65,7 +65,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -77,7 +77,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -89,7 +89,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -101,7 +101,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -113,7 +113,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -125,7 +125,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -137,7 +137,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -149,7 +149,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -161,7 +161,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -173,7 +173,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -185,7 +185,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -197,7 +197,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -209,7 +209,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -221,7 +221,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -233,7 +233,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -245,7 +245,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -257,7 +257,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -269,7 +269,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
@@ -281,7 +281,7 @@ const data = [
     rating: 4.7,
     likes: 100,
     name: "Avatar Joe's",
-    price: 50.0,
+    price: "50.00",
     type: "PC Only",
     description:
       "Auto upload service ready, you can use this avatar within 24 hours.",
