@@ -9,7 +9,7 @@ import Link from "next/link";
 import styles from "./navbar.module.css";
 const Header = () => {
   return (
-    <div className="fixed-top">
+    <div className="container-fluid fixed-top">
       <header className={styles.navbarWrapper}>
         <nav className={styles.nav}>
           <div className={styles.logo}>
@@ -20,8 +20,9 @@ const Header = () => {
               height={50}
             />
           </div>
+
           <ul className={styles.ul}>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between flex-wrap flex-sm-nowrap">
               <div>
                 <li className={styles.li}>
                   <Link
