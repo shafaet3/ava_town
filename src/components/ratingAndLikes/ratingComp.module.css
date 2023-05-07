@@ -1,0 +1,10 @@
+.ratingsAndLikesText {
+    width: 240px;
+    height: 13px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    color: #6A6A6A;
+}
