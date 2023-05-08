@@ -2,10 +2,49 @@ body {
     font-family: 'Inter', 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
         'Arial', sans-serif;
     padding: 0px;
-    max-width: 1280px;
+    min-width: 1280px;
     margin: 0 auto;
     position: relative;
-    width: 1280px;
     background: #F5F5F5;
+    overflow: scroll;
+    overflow-x: hidden;
+}
 
+::-webkit-scrollbar {
+    width: 0px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+.headingTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.customBgProduct {
+    background-color: #FAFAFA;
+}
+
+.productHomeCard .card {
+    border: none;
+    transition: box-shadow 0.5s;
+    cursor: pointer;
+}
+
+.productHomeCard .card .imageBox {
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+}
+
+.customPadding {
+    padding-left: 0px;
+    padding-right: 24px;
 }
