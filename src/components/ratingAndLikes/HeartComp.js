@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./heartComp.module.css";
 function HeartComp({ uniqueId }) {
   return (

@@ -1,5 +1,3 @@
-import React from "react";
-
 function DropDown() {
   return (
     <div className="mx-5 my-3">

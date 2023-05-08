@@ -1,7 +1,7 @@
-import Rating from "react-rating";
-import { useState } from "react";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { useState } from "react";
+import Rating from "react-rating";
 import styles from "./ratingComp.module.css";
 function RatingComp({ data }) {
   const [rating, setRating] = useState(0);
@@ -38,7 +38,7 @@ function RatingComp({ data }) {
             />
           }
         />{" "}
-        {rating}& {data.likes}
+        {rating} & {data.likes}
         Likes
       </span>
     </div>

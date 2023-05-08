@@ -14,32 +14,26 @@
     right: 5px;
     top: -14px;
     bottom: 0%;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
     color: #6A6A6A;
     cursor: pointer;
 }
 
-
 .customCheckbox input[type="checkbox"]:checked+label:after {
     content: '\❤️';
-
     position: absolute;
     right: 5px;
     top: -14px;
     bottom: 0%;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 22px;
-
     color: #F84F4F;
     cursor: pointer;
 }

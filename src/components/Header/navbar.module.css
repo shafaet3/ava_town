@@ -34,7 +34,6 @@
     font-weight: bold;
 }
 
-/* Go to Marketpage */
 .linkMarketPage {
     font-family: 'Inter';
     font-style: normal;
@@ -50,9 +49,6 @@
     border-bottom-width: 2px;
     width: fit-content;
 }
-
-
-
 
 .searchInput {
     max-width: 411px;
