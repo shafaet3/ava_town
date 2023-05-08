@@ -1,16 +1,17 @@
+import { faCartPlus, faLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import Link from "next/link";
-import { useState } from "react";
-import Rating from "react-rating";
+import PriceComp from "../price/PriceComp";
+import ProfileComp from "../profile/ProfileComp";
+import HeartComp from "../ratingAndLikes/HeartComp";
+import RatingComp from "../ratingAndLikes/RatingComp";
 import styles from "./itemCard.module.css";
-import { faStar, faLink, faCartPlus } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 function ItemCard({ uniqueId, data }) {
-  const [rating, setRating] = useState(0);
   return (
-    <div className="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-3 p-0 mx-0 my-1">
+    <div className="col-12 col-sm-12 col-md-3 col-lg-4 col-xl-3 p-0 mx-0 my-1">
       <div className={`${styles.customCard}`}>
-        <Link href="/market-page">
+        <Link href={`/item/${uniqueId}`}>
           <Image
             src={data.imagePath}
             alt={data.imagePath}
@@ -35,60 +36,16 @@ function ItemCard({ uniqueId, data }) {
           <p className={styles.cardHeading}>{data.title}</p>
 
           <div className="d-flex justify-content-between m-0 px-1">
-            {/* rating and likes start */}
-            <div>
-              <span className={styles.ratingsAndLikesText}>
-                <Rating
-                  onClick={(value) => setRating(value)}
-                  placeholderRating={rating}
-                  initialRating={rating}
-                  emptySymbol={
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      style={{ color: "#80808069" }}
-                    />
-                  }
-                  placeholderSymbol={
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      style={{ color: "#F9AE3F" }}
-                    />
-                  }
-                  fullSymbol={
-                    <FontAwesomeIcon
-                      icon={faStar}
-                      style={{ color: "#F9AE3F" }}
-                    />
-                  }
-                />{" "}
-                {rating} & {data.likes}Likes
-              </span>
-            </div>
-            {/* rating and likes end */}
+            <RatingComp data={data} />
 
-            {/* heart checkbox start */}
-            <div className="custom-checkbox">
-              <input type="checkbox" id={`my-checkbox-${uniqueId}`} />
-              <label htmlFor={`my-checkbox-${uniqueId}`}></label>
-            </div>
-            {/* heart checkbox end */}
+            <HeartComp uniqueId={uniqueId} />
           </div>
           <div className="d-flex position-relative m-0 px-1">
-            <Image
-              src={data.imagePath}
-              alt={data.imagePath}
-              className={styles.avatarImgCircle}
-              width={21}
-              height={21}
-              priority={false}
-            />
-            <span className={styles.avatarName}>{data.name}</span>
+            <ProfileComp data={data} />
           </div>
 
           <div className="d-flex mt-1 px-1">
-            <span className={styles.avatarPrice}>
-              <span className={styles.avatarPriceIcon}>$</span> {data.price}
-            </span>
+            <PriceComp data={data} />
           </div>
           <div className="d-flex mt-1 px-1">
             <span className={styles.blueCircle}></span>
